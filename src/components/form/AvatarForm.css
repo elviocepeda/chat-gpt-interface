@@ -1,0 +1,35 @@
+.form_avatar_wrapper {
+  height: 100%;
+}
+
+.form_avatar_wrapper form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.form_avatar_container {
+  height: 100%;
+}
+
+.form_input_file_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  height: calc(100% - 3.5rem);
+}
+
+.form_input_file_container input {
+  z-index: 200;
+  width: 2rem;
+  height: 2rem;
+  filter: opacity(0);
+  cursor: pointer;
+}
+
+.form_upload_icon_container {
+  position: absolute;
+}

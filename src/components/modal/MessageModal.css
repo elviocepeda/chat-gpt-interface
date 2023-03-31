@@ -1,0 +1,44 @@
+.modal_msg_wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modal_msg_container {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.modal_success_container,
+.modal_error_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.modal_success_container p,
+.modal_error_container p {
+  margin-right: 1rem;
+}
+
+.modal_btn {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}

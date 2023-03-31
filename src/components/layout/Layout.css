@@ -1,0 +1,31 @@
+.layout_wrapper {
+  height: 100vh;
+  width: 75%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: #c5e0e4;
+}
+
+.layout_children {
+  padding-top: 4.5rem;
+  padding-bottom: 4rem;
+  height: 100%;
+  background-image: url(../../assets/robot_home.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+  .layout_wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .layout_wrapper {
+    width: 100%;
+  }
+  .layout_children {
+    background-position: 70% center;
+  }
+}

@@ -1,0 +1,113 @@
+.profile_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 4rem);
+  margin: 2rem 4rem;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 0.7rem;
+  overflow-y: hidden;
+}
+
+.profile_container {
+  height: 100%;
+  width: 50%;
+  padding: 2rem;
+}
+
+.profile_avatar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_avatar_display_none {
+  display: none;
+}
+
+.profile_camera_container {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.profile_info span:first-child {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.profile_info span:last-child {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.profile_change_password {
+  margin-top: 1rem;
+}
+
+.profile_robot {
+  height: 100%;
+  width: 50%;
+  background-image: url(../../assets/robot_full.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.profile_password_btn {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-style: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .profile_wrapper {
+    margin: 2rem;
+  }
+  .profile_container {
+    width: 60%;
+  }
+  .profile_robot {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile_wrapper {
+    margin: 4rem 0rem;
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile_wrapper {
+    flex-direction: column-reverse;
+  }
+  .profile_container {
+    width: 100%;
+    padding: 1rem;
+  }
+  .profile_robot {
+    display: none;
+  }
+  .profile_avatar_display_none {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+}

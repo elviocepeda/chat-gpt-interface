@@ -1,0 +1,26 @@
+.footer_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  backdrop-filter: blur(7px);
+}
+
+.footer_wrapper p {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer_wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_wrapper {
+    display: none;
+  }
+}

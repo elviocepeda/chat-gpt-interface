@@ -1,0 +1,13 @@
+import "./index.css";
+export { Toggle as ToggleIcon } from "./Toggle";
+export { Register as RegisterIcon } from "./Register";
+export { Login as LoginIcon } from "./Login";
+export { Logout as LogoutIcon } from "./Logout";
+export { ArrowLeft as ArrowLeftIcon } from "./ArrowLeft";
+export { OpenAI as OpenAIIcon } from "./OpenAI";
+export { Check as CheckIcon } from "./Check";
+export { Warning as WarningIcon } from "./Warning";
+export { Camera as CameraIcon } from "./Camera";
+export { Upload as UploadIcon } from "./Upload";
+export { Burger as BurgerIcon } from "./Burger";
+export { Close as CloseIcon } from "./Close";
