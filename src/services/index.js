@@ -51,7 +51,6 @@ export const userLogin = async (dispatch, form) => {
 };
 
 export const getResponse = async (dispatch, prompt) => {
-  console.log(prompt);
   const options = {
     method: "POST",
     headers: defaultHeaders,
@@ -60,7 +59,6 @@ export const getResponse = async (dispatch, prompt) => {
   try {
     const res = await fetch(`${baseUrl}/chat`, options);
     const data = await res.json();
-    console.log(data);
     dispatch({ type: GET_RESPONSE_SUCCESS, payload: data });
   } catch (error) {
     dispatch({ type: GET_RESPONSE_FAILED, payload: error });
