@@ -9,7 +9,7 @@ export const BesideCard = () => {
         <div>
           <h2>CHAT</h2>
           <h2>GPT</h2>
-          <h2>3</h2>
+          <h2>3.5</h2>
         </div>
         <div className="beside_logo">
           <Logo size="140" />
