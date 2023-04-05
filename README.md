@@ -1,70 +1,150 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://chat-gpt-interface-omega.vercel.app/">
+    <img src="https://user-images.githubusercontent.com/95110967/229977955-c0200624-3729-4be2-8475-9b706a66655a.png" alt="Logo" width="170" height="170">
+  </a>
+  <h3 align="center">Chat AI App: INTERFACE</h3>
 
-## Available Scripts
+  <p align="center">
+    Click below to see a preview of the project!
+    <br />
+    <a href="https://chat-gpt-interface-omega.vercel.app/"><strong>Explore the app »</strong></a>
+  </p>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About The Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Chat GPT (Generative Pre-trained Transformer) is a natural language processing (NLP) model developed by OpenAI. It is a deep learning model based on the Transformer architecture that is trained on a large corpus of conversational data. Chat GPT is designed to generate human-like responses to user input, allowing for natural conversations with a virtual assistant.
 
-### `npm test`
+Chat AI App is a project based on the `text-davinci-003` model of Chat GPT 3.5. It's just another interface to simulate that we are talking with an artificial intelligence.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Training model data: _Up to Jun 2021_
 
-### `npm run build`
+<p align="right"><a href="#readme-top">Subir</a></p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Technologies used to develop this project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [![javascript][javascript]][javascript-url]
+- [![React][react.js]][react-url]
+- [![ReactRouter][reactrouter]][reactrouter-url]
+- [![ReactHookForm][reacthookform]][reacthookform-url]
 
-### `npm run eject`
+_* form validation: <a href="https://www.npmjs.com/package/yup"><strong>yup</strong></a>_
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<strong>State managment</strong>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Context API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://user-images.githubusercontent.com/95110967/229986755-72f5b556-d6fc-4e41-a356-8fe546dec93d.png" alt="Logo" width="140" height="140">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right"><a href="#readme-top">Subir</a></p>
 
-## Learn More
+<!-- GETTING STARTED -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/elviocepeda/chat-gpt-interface.git
+   ```
+2. Enter chat-gpt-interface folder
+   ```sh
+   cd chat-gpt-interface
+   ```
+3. Install NPM packages
+   ```sh
+   npm i
+   ```
+4. Start project!
+   ```sh
+   npm start
+   ```
 
-### Code Splitting
+<p align="right"><a href="#readme-top">Subir</a></p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- USAGE EXAMPLES -->
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<strong>Sign up for the app...</strong>
 
-### Making a Progressive Web App
+![register](https://user-images.githubusercontent.com/95110967/229985245-fe03fee7-7eff-4ce3-81df-dfba0a251d8a.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<strong>...log in...</strong>
 
-### Advanced Configuration
+![login](https://user-images.githubusercontent.com/95110967/229985283-bd6cf557-99f9-432e-908f-8abb3518fc0e.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<strong>...and try out chat-gpt 3.5.</strong>
 
-### Deployment
+![chat](https://user-images.githubusercontent.com/95110967/229985322-f9a390a2-1a79-4f19-8b74-792003d7e2dd.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<strong>Important:</strong> _You don't need to validate your email, but I suggest you use a valid account in case you need to recover your password._
 
-### `npm run build` fails to minify
+<p align="right"><a href="#readme-top">Subir</a></p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- LICENSE -->
+
+## License
+
+Distributed under the ISC License. See `LICENSE.txt` for more information.
+
+[![ISC License][license-shield]][license-url]
+
+<p align="right"><a href="#readme-top">Subir</a></p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Elvio Cepeda - cepedaelvio@gmail.com
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+Project Link: [https://github.com/elviocepeda/chat-gpt-backend.git](https://github.com/elviocepeda/chat-gpt-backend.git)
+
+<p align="right"><a href="#readme-top">Subir</a></p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[license-shield]: https://img.shields.io/badge/License-ISC-yellow?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0A66C2
+[linkedin-url]: https://www.linkedin.com/in/elviocepeda/
+[javascript]: https://img.shields.io/badge/Javascript-20232A?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[javascript-url]: https://developer.mozilla.org/es/docs/Web/JavaScript
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[reactrouter]: https://img.shields.io/badge/ReactRouterDom-20232A?style=for-the-badge&logo=reactrouter&logoColor=CA4245
+[reactrouter-url]: https://reactrouter.com/
+[reacthookform]: https://img.shields.io/badge/ReactHookForm-20232A?style=for-the-badge&logo=reacthookform&logoColor=EC5990
+[reacthookform-url]: https://react-hook-form.com/
